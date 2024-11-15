@@ -1,6 +1,8 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import "./App.css";
+import Card from "./components/Card";
 import { Permission } from "./utils/enums";
+import { Product } from "./utils/interface";
 import { Age } from "./utils/types";
 
 const reviews: {
@@ -117,9 +119,9 @@ function App() {
             reviews[1].name,
             reviews[0].premiumUser
           )}
-          {}
         </div>
       </div>
+      {/* <Card></Card> */}
     </>
   );
 }
